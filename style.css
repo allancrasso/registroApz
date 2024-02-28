@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Mantendo o fundo claro para contraste */
+  }
+  
+  .form-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ff0000; /* Adicionando uma borda vermelha ao container */
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  button {
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  fieldset {
+    border: 1px solid #161515; /* Alterando a cor da borda dos fieldsets para vermelho */
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  legend {
+    padding: 0 10px;
+    color: #0e0d0d; /* Mudando a cor do texto da legenda para vermelho */
+  }
+  
+  button {
+    background-color: #ff0000; /* Mudando a cor de fundo do botão para vermelho */
+    color: white;
+    cursor: pointer;
+    border: none; /* Removendo a borda do botão para um design mais limpo */
+  }
+  
+  button:hover {
+    background-color: darkred; /* Mudando a cor de fundo do botão para um vermelho mais escuro ao passar o mouse */
+  }
+  
